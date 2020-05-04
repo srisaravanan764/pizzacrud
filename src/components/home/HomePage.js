@@ -34,7 +34,7 @@ class HomePage extends Component {
       <div className='container'>
         <section className='jumbotron text-center'>
           <div className='container'>
-            <h1 className='jumbotron-heading'>Welcome to Pizza Lab{headingText} !</h1>
+            <h1 className='jumbotron-heading'>Welcome to Pizza Crud{headingText} !</h1>
             {!isAuthenticated && <p className='lead text-muted'>Your favourite pizza is now just a few clicks away. Register now and choose from our decent menu.</p>}
             <p>
               <Link to='/menu' className='btn btn-primary'>Go To Menu</Link>
